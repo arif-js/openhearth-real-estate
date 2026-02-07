@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import InquiryForm from "@/components/InquiryForm";
 import SavePropertyButton from "@/components/SavePropertyButton";
+import ShareButton from "@/components/ShareButton";
 import { auth } from "@clerk/nextjs/server";
 
 interface PropertyPageProps {
@@ -47,9 +48,7 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
                         Back to Listings
                     </Link>
                     <div className="flex items-center gap-3">
-                        <button onClick={() => navigator.clipboard.writeText(window.location.href)} className="p-2 cursor-pointer rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
-                            <Share2 className="h-5 w-5 text-slate-600 dark:text-slate-400" />
-                        </button>
+                        <ShareButton />
                         <SavePropertyButton propertyId={id} propertyTitle={property.Title} initialSaved={isSaved} />
                     </div>
                 </div>
