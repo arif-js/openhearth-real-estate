@@ -1,3 +1,4 @@
+/// <reference types="leaflet.markercluster" />
 "use client";
 
 import { useEffect, useMemo, useRef } from "react";
