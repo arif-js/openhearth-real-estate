@@ -47,7 +47,7 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
                         Back to Listings
                     </Link>
                     <div className="flex items-center gap-3">
-                        <button className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+                        <button onClick={() => navigator.clipboard.writeText(window.location.href)} className="p-2 cursor-pointer rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
                             <Share2 className="h-5 w-5 text-slate-600 dark:text-slate-400" />
                         </button>
                         <SavePropertyButton propertyId={id} propertyTitle={property.Title} initialSaved={isSaved} />
