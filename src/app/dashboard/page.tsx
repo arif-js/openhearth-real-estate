@@ -20,7 +20,7 @@ export default async function DashboardPage() {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
                     <div className="flex flex-col sm:flex-row items-center gap-6 mb-8">
                         <div className="h-20 w-20 rounded-3xl bg-primary/20 flex items-center justify-center text-primary border border-primary/20">
-                            <Heart className="h-10 w-10 fill-current" />
+                            <Heart className="h-10 w-10 fill-current" color="white" />
                         </div>
                         <div>
                             <h1 className="text-4xl font-black text-white tracking-tight mb-2">My Saved Homes</h1>
@@ -43,7 +43,7 @@ export default async function DashboardPage() {
                             </p>
                             <Link
                                 href="/properties"
-                                className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-accent text-white px-10 py-4 rounded-2xl font-bold transition-all shadow-lg hover:shadow-primary/20"
+                                className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-accent text-primary px-10 py-4 rounded-2xl font-bold transition-all shadow-lg hover:shadow-primary/20"
                             >
                                 Start Browsing
                                 <ArrowRight className="h-5 w-5" />
