@@ -48,8 +48,22 @@ AIRTABLE_BASE_ID=
    ```bash
    npm run dev
    ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 🏁 UI
+<img width="1507" height="744" alt="Screenshot 2026-02-07 at 4 28 00 PM" src="https://github.com/user-attachments/assets/9f565ab4-debd-410f-9af2-da3ecec1a3bb" />
+<br>
+<br>
+
+<img width="1507" height="744" alt="Screenshot 2026-02-07 at 4 27 50 PM" src="https://github.com/user-attachments/assets/a3d75f7a-0177-414a-abb8-f7e57563d820" />
+<br>
+<br>
+
+<img width="1507" height="744" alt="Screenshot 2026-02-07 at 4 27 39 PM" src="https://github.com/user-attachments/assets/bb26327b-a7bd-4b4b-932a-9ce88f3afcf4" />
+<br>
+<br>
+
+<img width="1507" height="744" alt="Screenshot 2026-02-07 at 4 27 20 PM" src="https://github.com/user-attachments/assets/9cdfe236-ed45-46d6-829a-251421ec63e8" />
 
 ## 📄 License
 
