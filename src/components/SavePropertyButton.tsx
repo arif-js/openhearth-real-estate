@@ -54,7 +54,7 @@ export default function SavePropertyButton({ propertyId, propertyTitle, initialS
         <button
             onClick={handleToggleSave}
             disabled={isToggling}
-            className={`p-2 rounded-full backdrop-blur-md border transition-all duration-300 ${saved
+            className={`p-2 cursor-pointer rounded-full backdrop-blur-md border transition-all duration-300 ${saved
                 ? 'bg-pink-500 hover:bg-pink-600 text-white border-pink-500 shadow-lg shadow-pink-500/20 scale-110'
                 : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700 hover:border-pink-200 dark:hover:border-pink-900'
                 }`}
